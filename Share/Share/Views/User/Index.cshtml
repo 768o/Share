@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "User";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/User.js"></script>
+<style type="text/css">
+    html {
+        height:100%;
+    }
+    body {
+        height: 100%;
+    }
+    .body-content {
+        height: 100%;
+    }
+    .userindex {
+        height: 100%;
+    }
+</style>
+<input type="button" class="btn lin_btn" data-toggle="modal" id="lin_Modal" data-target="#myModal" value="发布文章" />
+<div class="userindex">
+    <div class="jumbotron lin_jumbotron">
+        <p class="lin_jumbotron_p">@Session["user_name"] - 媒体用户</p>
+        @*<p class="lin_jumbotron_p">@Session["user_name"] <a>申请成为媒体用户</a></p>*@
+        <p class="lin_jumbotron_p">共发布<a>99</a>篇文章</p>
+        @*<p class="lin_jumbotron_p">共阅读<a>99</a>篇文章</p>*@
+        <p class="lin_jumbotron_p">新回复<a>99</a></p>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">发布文章</h4>
+            </div>
+                    <div class="modal-body">
+                        <p>
+                            <label for="news_title">标题：</label>
+                            <!-- id和name最好同时写上 -->
+                            <input id="news_title" class="required" />
+                        </p>
+                        <p>
+                            <label for="news_text">正文：</label>
+                            <textarea id="news_text" class="required"></textarea>
+                        </p>
+                        <p>
+                            <label for="news_type">类别：</label>
+                            <select id="news_type">
+                                <option id="news_type_option" class="lin_option"></option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="关闭">
+                        <input id ="insert_news_submit" type="submit" data-dismiss="modal" class=" btn btn-primary">
+                    </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>

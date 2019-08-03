@@ -1,0 +1,52 @@
+﻿.lin_navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+
+.lin_table_div {
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.lin_table_td {
+    min-width: 60px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.lin_jumbotron {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:white;
+    border-bottom:1px #ffe1e1 solid;
+}
+
+.lin_jumbotron_p {
+    margin-top:6px;
+    font-size: 12px;
+}
+
+.lin_jumbotron_span {
+    margin-right: 6px;
+}
+
+.lin_lead {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.lin_form-control {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.lin_btn {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.lin_table {
+    margin-bottom:6px;
+}

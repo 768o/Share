@@ -1,0 +1,2354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>E:\论文\Sharp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>01/20/2018 13:16:16</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>01/20/2018 13:16:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 03:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/Share.dll">
+      <publishTime>01/20/2018 14:08:38</publishTime>
+    </File>
+    <File Include="bin/Share.pdb">
+      <publishTime>01/20/2018 14:08:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>02/11/2014 15:28:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/20/2018 13:16:05</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/20/2018 13:16:05</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/backbone-require.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/js/collections/CategoriesCollection.js">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/js/main.js">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/js/models/CategoryModel.js">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/js/routers/mobileRouter.js">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/backbone-requirejs/js/views/CategoryView.js">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/body-bar-classes/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/button-markup/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/button/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/checkboxradio-checkbox/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/checkboxradio-radio/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/collapsible-dynamic/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/collapsible/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/collapsibleset/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/controlgroup-dynamic/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/controlgroup/index.html">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/ajax-loader.gif">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/action-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/action-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/alert-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/alert-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-l-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-l-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-r-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-r-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-d-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-l-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-l-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-r-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-r-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-l-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-l-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-r-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-r-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/arrow-u-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/audio-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/audio-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/back-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/back-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/bars-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/bars-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/bullets-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/bullets-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/calendar-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/calendar-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/camera-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/camera-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-d-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-d-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-l-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-l-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-r-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-r-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-u-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/carat-u-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/check-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/check-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/clock-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/clock-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/cloud-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/cloud-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/comment-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/comment-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/delete-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/delete-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/edit-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/edit-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/eye-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/eye-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/forbidden-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/forbidden-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/forward-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/forward-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/gear-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/gear-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/grid-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/grid-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/heart-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/heart-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/home-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/home-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/info-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/info-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/location-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/location-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/lock-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/lock-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/mail-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/mail-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/minus-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/minus-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/navigation-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/navigation-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/phone-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/phone-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/plus-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/plus-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/power-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/power-white.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/recycle-black.png">
+      <publishTime>01/20/2018 13:30:23</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/recycle-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/refresh-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/refresh-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/search-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/search-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/shop-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/shop-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/star-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/star-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/tag-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/tag-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/user-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/user-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/video-black.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-png/video-white.png">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/action-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/action-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/alert-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/alert-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-l-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-l-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-r-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-r-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-l-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-l-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-r-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-r-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-l-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-l-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-r-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-r-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/audio-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/audio-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/back-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/back-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/bars-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/bars-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/bullets-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/bullets-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/calendar-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/calendar-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/camera-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/camera-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-d-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-d-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-l-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-l-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-r-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-r-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-u-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/carat-u-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/check-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/check-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/clock-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/clock-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/cloud-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/cloud-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/comment-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/comment-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/delete-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/delete-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/edit-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/edit-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/eye-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/eye-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/forbidden-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/forbidden-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/forward-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/forward-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/gear-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/gear-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/grid-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/grid-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/heart-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/heart-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/home-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/home-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/info-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/info-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/location-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/location-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/lock-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/lock-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/mail-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/mail-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/minus-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/minus-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/navigation-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/navigation-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/phone-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/phone-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/plus-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/plus-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/power-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/power-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/recycle-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/recycle-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/refresh-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/refresh-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/search-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/search-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/shop-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/shop-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/star-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/star-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/tag-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/tag-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/user-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/user-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/video-black.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/images/icons-svg/video-white.svg">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.external-png-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.icons-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.inline-png-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:24</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.inline-svg-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.structure-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/css/themes/default/jquery.mobile.theme-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/datepicker/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/favicon.ico">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/filterable/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/flipswitch/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms-disabled/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms-field-contain/fieldcontain-hide-label-deprecated.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms-field-contain/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms-gallery/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms-label-hidden-accessible/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/forms/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/grids-buttons/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/grids-custom-responsive/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/grids/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/icons-grunticon/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/icons/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/intro/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-contents.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-contents.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-navmenu.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-navmenu.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-search.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/jqm-search.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/js/jquery.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/js/jquery.min.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/js/jquery.mobile-1.4.5.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/js/jquery.mobile-1.4.5.min.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/js/jquery.mobile-1.4.5.min.map">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autocomplete-remote/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autocomplete/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar-demo.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar.css">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autodividers-linkbar/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-autodividers-selector/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-collapsible-item-flat/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-collapsible-item-indented/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-grid/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-grid/listview-grid.css">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-grid/listview-grid.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview-nested-lists/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/listview/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/loader/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/map-geolocation/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/map-list-toggle/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/map-list-toggle/jquery.gmap.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/map-list-toggle/showMore.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navbar/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-hash-processing/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-linking-pages/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-php-redirect/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-php-redirect/redirect-target.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-php-redirect/redirect.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation-php-redirect/source.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation/demo.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/navigation/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/controls-in-header-footer.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/disabling-a-button-does-not-work.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/dom-ready-not-working.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-can-i-stop-auto-enhancement-of-a-block-of-elements.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-can-i-stop-auto-enhancement-of-elements.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-configure-phonegap-cordova.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-do-i-control-page-titles.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-do-i-load-a-page.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-do-i-scroll-to-a-position.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-do-i-turn-off-url-hiding.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-do-i-use-touch-mouse-events.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/how-does-theming-work.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/injected-content-is-not-enhanced.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/my-html-5-inputs-look-different-in-browsers.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/my-range-search-input-type-is-being-changed.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/pass-query-params-to-page.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/pass-via-the-hash-to-page.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/scripts-and-styles-not-loading.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/sometimes-custom-select-shows-as-dialog-popup.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/the-application-cache-is-not-working.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/triggering-create-on-injected-content-does-not-work.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/updating-the-value-of-enhanced-form-elements-does-not-work.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/why-is-only-the-first-page-loaded.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/old-faq-pages/why-wont-my-css-styles-apply-correctly-to-a-widget.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents-2.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents-2.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents-3.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents-3.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/alertevents.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/docs.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/docs.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents-2.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents-2.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents-3.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents-3.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/page-events/logevents.php">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-alt.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-buttons.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-corners.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-noclosebtn.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-overlay.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-rightclosebtn.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-success.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog-with-select.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/dialog.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-dialog/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-multi-page/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages-single-page/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages/samepagetransition.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/pages/startpage.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-external-internal/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-external-internal/page-b.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-external-internal/page-c.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-external/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-external/page-b.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-fixed/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-responsive/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-styling/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel-swipe-open/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/panel/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-alignment/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-alignment/popup.alignment.js">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-arrow-size/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-dynamic/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-iframe/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-iframe/map.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-iframe/popup-iframe-map.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-iframe/popup-iframe-video.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-image-scaling/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-image-scaling/popup-image-scaling.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup-outside-multipage/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/popup/index.html">
+      <publishTime>01/20/2018 13:30:25</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/rangeslider/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/rwd/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/selectmenu-custom-filter/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/selectmenu-custom/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/selectmenu/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/slider-flipswitch/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/slider-tooltip/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/slider/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-list/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/buenosaires.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/capetown.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/newyork.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/paris.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/seoul.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/swipe-page.css">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/swipe-page.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/swipe-page/sydney.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-column-toggle-example/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-column-toggle-heading-groups/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-column-toggle-options/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-column-toggle/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-reflow-heading-groups/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-reflow-stripes-strokes/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-reflow-styling/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/table-reflow/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/tabs/ajax-content-ignore.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/tabs/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/tabs/tabbed-content.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/textinput/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/theme-classic/images/ajax-loader.gif">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/theme-classic/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/theme-classic/theme-classic.css">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/theme-default/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-dynamic/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-external/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-external/index2.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-external/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-forms/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-fullscreen/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent-optimized/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent-optimized/page-b.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent-optimized/page-c.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent-optimized/page-d.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent/page-b.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent/page-c.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed-persistent/page-d.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar-fixed/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/toolbar/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/transitions/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/transitions/page-transitions-dialog.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/transitions/page-transitions-page.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/css/jqm-demos.css">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-af.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-ag.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-bb.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-bk.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-hc.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-k.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-mg.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-ok.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-p.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-rh.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-ws.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/album-xx.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/apple.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/bg-pattern.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/bike.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/blackberry_10.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/bmw-thumb.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/bmw.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/buenosaires.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/capetown.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/de.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/devices.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/fi.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/firefox-logo.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/firefox_os.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/galaxy_express.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/gb.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/gf.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/09-chat2.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/100-coffee.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/18-envelope.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/19-gear.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/21-skull.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/30-key.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/34-coffee.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/88-beermug.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/glyphish-icons/Read me first - license.txt">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/jquery-logo.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/landrover-thumb.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/landrover.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/lumia_800.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/newyork.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/nexus_7.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/paris.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/phone_galaxy3.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/phone_iphone5.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/phone_lumia920.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/phone_onex.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/photo-landscape.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/photo-portrait.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/photo-run.jpeg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/seoul.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/sydney.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/tesla-thumb.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/tesla.jpg">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/tizen.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/img/us.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/js/h2widget.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/js/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/js/index.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/js/jqm-demos.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_assets/js/view-source.js">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/demos/_search/index.html">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/ajax-loader.gif">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/action-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/action-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/alert-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/alert-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-l-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-l-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-r-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-r-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-d-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-l-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-l-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-r-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-r-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-l-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-l-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-r-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-r-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/arrow-u-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/audio-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/audio-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/back-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/back-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/bars-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/bars-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/bullets-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/bullets-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/calendar-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/calendar-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/camera-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/camera-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-d-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-d-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-l-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-l-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-r-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-r-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-u-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/carat-u-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/check-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/check-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/clock-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/clock-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/cloud-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/cloud-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/comment-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/comment-white.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/delete-black.png">
+      <publishTime>01/20/2018 13:30:26</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/delete-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/edit-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/edit-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/eye-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/eye-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/forbidden-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/forbidden-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/forward-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/forward-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/gear-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/gear-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/grid-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/grid-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/heart-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/heart-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/home-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/home-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/info-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/info-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/location-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/location-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/lock-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/lock-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/mail-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/mail-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/minus-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/minus-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/navigation-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/navigation-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/phone-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/phone-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/plus-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/plus-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/power-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/power-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/recycle-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/recycle-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/refresh-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/refresh-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/search-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/search-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/shop-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/shop-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/star-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/star-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/tag-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/tag-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/user-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/user-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/video-black.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-png/video-white.png">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/action-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/action-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/alert-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/alert-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-l-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-l-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-r-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-r-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-d-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-l-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-l-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-r-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-r-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-l-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-l-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-r-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-r-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/arrow-u-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/audio-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/audio-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/back-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/back-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/bars-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/bars-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/bullets-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/bullets-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/calendar-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/calendar-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/camera-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/camera-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-d-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-d-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-l-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-l-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-r-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-r-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-u-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/carat-u-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/check-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/check-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/clock-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/clock-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/cloud-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/cloud-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/comment-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/comment-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/delete-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/delete-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/edit-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/edit-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/eye-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/eye-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/forbidden-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/forbidden-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/forward-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/forward-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/gear-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/gear-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/grid-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/grid-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/heart-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/heart-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/home-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/home-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/info-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/info-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/location-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/location-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/lock-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/lock-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/mail-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/mail-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/minus-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/minus-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/navigation-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/navigation-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/phone-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/phone-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/plus-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/plus-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/power-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/power-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/recycle-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/recycle-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/refresh-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/refresh-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/search-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/search-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/shop-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/shop-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/star-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/star-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/tag-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/tag-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/user-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/user-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/video-black.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/images/icons-svg/video-white.svg">
+      <publishTime>01/20/2018 13:30:27</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile-1.4.5.js">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile-1.4.5.min.js">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile-1.4.5.min.map">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.external-png-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.external-png-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.icons-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.icons-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.inline-png-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.inline-png-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.inline-svg-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.inline-svg-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.structure-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.structure-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.theme-1.4.5.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="JqueryMobile/jquery.mobile.theme-1.4.5.min.css">
+      <publishTime>01/20/2018 13:30:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/20/2018 13:16:18</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/20/2018 13:16:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/20/2018 13:16:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>01/20/2018 13:16:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>01/20/2018 13:16:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>01/20/2018 13:16:11</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>01/20/2018 13:16:12</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/20/2018 14:06:36</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/20/2018 13:56:29</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/20/2018 13:15:55</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/20/2018 13:55:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/20/2018 14:08:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
